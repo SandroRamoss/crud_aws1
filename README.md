@@ -49,17 +49,6 @@ Este proyecto proporciona una API para realizar operaciones CRUD básicas sobre 
 
 ```json
 {
-    "id" : 3,
-    "nombre" : "Miguel",
-    "email" : "miguel@gmail.com"
-
-}
-```
-
-**Ejemplo de respuesta:**
-
-```json
-{
  "id_producto": 17,
  "estado": 0
 }
