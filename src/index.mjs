@@ -1,11 +1,11 @@
 import mysql from 'mysql';
 
 const con = mysql.createConnection({
-  host: 'gym-database.cxg68g4se5vs.us-east-1.rds.amazonaws.com',
+  host: 'gym-database',
   user: 'admin',
   port:"3306",
-  password: '9c2ne4BK.',
-  database: 'BD_CRUD',
+  password: '',
+  database: '',
 });
 
 export const handler = async (event, context) => {
